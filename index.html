@@ -4,105 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SDG 11 : 지속 가능한 도시와 지역 사회</title>
-    <style>
-      /* 기본 스타일 */
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-      }
-
-      /* 제목 스타일 */
-      .title-container {
-        padding: 20px;
-        text-align: center;
-        background-color: #f99e20;
-        color: white;
-      }
-
-      /* 콘텐츠 영역 스타일 */
-      .content-container {
-        flex: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: white;
-        padding: 20px;
-      }
-
-      .image-container {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        width: 100%;
-        max-width: 800px;
-      }
-
-      .image-container img {
-        max-width: 100%; /* 이미지가 박스 크기에 맞게 조정 */
-        max-height: 300px; /* 높이 제한 */
-        object-fit: contain; /* 이미지 비율 유지 */
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      }
-
-      /* 버튼 영역을 페이지 하단에 고정 */
-      .button-container {
-        margin-top: auto;
-        padding: 20px;
-        display: flex;
-        justify-content: center;
-        gap: 15px;
-        background-color: #f0f0f0;
-        flex-wrap: wrap;
-      }
-
-      /* 버튼 스타일 */
-      .button-container button {
-        padding: 15px 30px;
-        font-size: 18px;
-        border: none;
-        border-radius: 8px;
-        background-color: #f99e20;
-        color: white;
-        cursor: pointer;
-        transition: background-color 0.3s;
-      }
-
-      /* 버튼 호버 효과 */
-      .button-container button:hover {
-        background-color: #f7c57f;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!-- 제목 영역 -->
-    <div class="title-container">
+    <div id="title-container">
       <h1>SDGs 11 : 지속 가능한 도시와 지역 사회</h1>
     </div>
 
     <!-- 콘텐츠 영역 -->
-    <div class="content-container">
-      <div class="image-container">
+    <div id="content-container">
+      <div id="image-container">
         <!-- 여기에 이미지를 추가 -->
         <img src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbd2SI5%2FbtqFljubEje%2FjPOxzmIgmCI31Ee9jGeCvK%2Fimg.png" alt="지속 가능한 도시 이미지">
       </div>
     </div>
 
     <!-- 버튼 영역 -->
-<div class="button-container">
-  <button onclick="location.href='detail1.html'">세부목표1</button>
-  <button onclick="location.href='detail2.html'">세부목표2</button>
-  <button onclick="location.href='detail3.html'">세부목표3</button>
-  <button onclick="location.href='detail4.html'">세부목표4</button>
-  <button onclick="location.href='detail5.html'">세부목표5</button>
-  <button onclick="location.href='detail6.html'">세부목표6</button>
-  <button onclick="location.href='detail7.html'">세부목표7</button>
-</div>
-
+    <div id="button-container">
+      <button onclick="location.href='detail1.html'">세부목표1</button>
+      <button onclick="location.href='detail2.html'">세부목표2</button>
+      <button onclick="location.href='detail3.html'">세부목표3</button>
+      <button onclick="location.href='detail4.html'">세부목표4</button>
+      <button onclick="location.href='detail5.html'">세부목표5</button>
+      <button onclick="location.href='detail6.html'">세부목표6</button>
+      <button onclick="location.href='detail7.html'">세부목표7</button>
+    </div>
   </body>
 </html>
-
