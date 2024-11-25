@@ -47,3 +47,11 @@ button{
   border-color: #f99e20; 
   border-radius: 5px;
 }
+
+iframe{
+  margin: 0, 100px;
+  display: flex;
+  justify-content: center; /* 가로 중앙 */
+  align-items: center;   /* 세로 중앙 */
+  background-color: #f0f0f0; /* 배경색(선택사항) */
+}

@@ -1,11 +1,12 @@
 /* 기본 스타일 */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
+  font-family: 'jua', Arial, sans-serif ;
+  margin: 0 600px;
   padding: 0;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: black;
 }
 
 /* 제목 스타일 */
@@ -18,6 +19,7 @@ body {
 
 /* 콘텐츠 영역 스타일 */
 #content-container {
+  font-family: 'jua';
   flex: 1;
   display: flex;
   justify-content: center;
@@ -40,10 +42,33 @@ body {
   object-fit: contain;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  gap: 100x;
+  margin-right: 80px;
+}
+
+#image-container #goToGame {
+  font-family: 'jua';
+  width: 300px;
+  height: 300px;
+  padding: 10px 20px; /* 버튼 내부 여백 */
+  background-color: #f99e20; /* 버튼 배경색 (파란색) */
+  color: white; /* 버튼 텍스트 색상 */
+  font-size: 40px; /* 텍스트 크기 */
+  border: none; /* 기본 테두리 제거 */
+  border-radius: 10px; /* 버튼 모서리 둥글게 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer; /* 마우스 커서 변경 */
+  transition: background-color 0.2s ease; /* 호버 효과 */
+  gap: 100x;
+}
+
+#image-container #goToGame:hover {
+  background-color: #ff9500ba; /* 호버 시 어두운 파란색 */
 }
 
 /* 버튼 영역을 페이지 하단에 고정 */
 #button-container {
+  font-family: 'jua';
   margin-top: auto;
   padding: 20px;
   display: flex;
@@ -55,6 +80,7 @@ body {
 
 /* 버튼 스타일 */
 #button-container button {
+  font-family: 'jua';
   padding: 15px 30px;
   font-size: 18px;
   border: none;
